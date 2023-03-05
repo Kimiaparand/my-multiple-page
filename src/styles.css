@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #f5d8af;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--primary-color);
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  padding: 30px;
+  margin: 30px;
+  font-size: 34px;
+}
+p {
+  text-align: center;
+}
+.email-link {
+  justify-content: center;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
